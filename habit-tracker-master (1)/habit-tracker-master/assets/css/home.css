@@ -1,0 +1,94 @@
+/* form to add habit */
+#add-habit-form{
+    /* display: none; */
+    position: absolute;
+    top: 32%;
+    display: none;
+    left:20%;
+    background-color: rgb(26, 233, 248);
+    z-index: 1;
+    width: 61%;
+    padding: 4% !important;
+}
+
+/*  add btn */
+.btn-success {
+    color: rgb(5, 5, 5);
+    background-color: #fff5f5;
+    border-color: #fffcfc;
+}
+
+/* routine btn color */
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* add habbits button */
+#btn-add-habit{
+    position: absolute;
+    top:20%;
+    left: 38%;
+    z-index: 1;
+}
+
+/* streak button */
+#btn-streak{
+    position: absolute;
+    top:20%;
+    left: 52%;
+    z-index: 1;
+}
+
+/* styling box */
+#box{
+    margin-top: 0%;
+    padding: 0% !important;
+}
+
+/* box containing habits */
+#box ul{
+    max-height: 60vh;
+    overflow-y:auto;
+}
+
+/* list iems showing habits */
+#habits li{
+    display: flex;
+    flex-direction: column;
+}
+
+/* info for a particular habit */
+.habit-info{
+    display: flex;
+    justify-content: space-between;
+}
+.habit-info h4{
+    text-transform: capitalize;
+    margin: 0;
+}
+
+/* the streak for a particular habit in list */
+.habit-streak{
+    margin-right:2% ;
+    margin-left: 2%;
+}
+.habit-streak p{
+    margin: 0;
+}
+.checked{
+    text-decoration: line-through;
+}
+
+/* Streak button */
+#streak-container{
+    display: inline-block;
+}
+
+/* color the dailogbox */
+.list-group-item-success {
+    color: #000000;
+    background-color: #fbff009c;
+}
+
